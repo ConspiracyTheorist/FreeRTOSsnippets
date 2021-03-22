@@ -1,5 +1,4 @@
 #include <freertos/FreeRTOS.h>
-#include <freertos/task.h>
 #include <stdint.h>
 
 /* Example of task params */
