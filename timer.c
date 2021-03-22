@@ -1,6 +1,6 @@
 #include "freertos/FreeRTOS.h"
 
-static TimerHandle_t timeout_timer=NULL;
+static TimerHandle_t timer=NULL;
 
 void timer_func(TimerHandle_t xTimer){
    /* Do something */ 
